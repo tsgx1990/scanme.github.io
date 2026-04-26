@@ -1,0 +1,4 @@
+# Cloudflare Pages rewrites
+# 扫码落地路径 /v 映射到 viewer.html（保留 fragment，客户端读取）
+/v /viewer.html 200
+/v/* /viewer.html 200
